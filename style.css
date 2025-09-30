@@ -1,0 +1,26 @@
+h1 {
+    color: purple;
+}
+body {
+    background-color: skyblue;
+    font-family: 'Exo 2', sans-serif;
+}
+li {
+    padding: 16px;
+    display: inline-block
+}
+li:hover {
+    color: white;
+    background-color: black;
+}
+
+
+a {
+    color: green;
+    font-size: 20px;
+    transition: color 2s, font-size 2s ease; 
+}
+a:hover {
+    color: yellow;
+    font-size: 200px;
+}

@@ -4,24 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Siriwath Edwards</h1>
-    <p>I am Siriwath, an undergraduate at UC Berkeley majoring in Computer Science.</p>
-    <h2>My Goals:</h2>
-    <ul>
-        <li>Obtianing a masters degree</li>
-        <li>Being financially stable</li>
-        <li>Win back my $300 I <i>lost</i> while gambling</li>
-        <li>Finishing this homework assignment</li>
-    </ul>
+    <div class="header">
+        <h1 id="name">Siriwath Edwards</h1>
+        <p>I am Siriwath, an undergraduate at UC Berkeley majoring in Computer Science.</p>
+    </div>
+    <div class="main">
+        <img src="data:image/jpeg;base64,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" alt="No more picture womp womp">
+        <h2>My Goals:</h2>
+        <ul>
+            <li>Obtianing a masters degree</li>
+            <li>Being financially stable</li>
+            <li>Win back my $300 I <i>lost</i> while gambling</li>
+            <li>Finishing this homework assignment</li>
+        </ul>
+        <a href="https://en.wikipedia.org/wiki/M1_Abrams">M1 ABRAMS MAIN BATTLE TANK</a>
+    </div>
+    <div class="footer">
 
 
 
-
-
-
-
+    </div>
 
 </body>
 </html>
