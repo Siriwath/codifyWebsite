@@ -22,3 +22,10 @@ a:hover {
     color: yellow;
     font-size: 200px;
 }
+.footer {
+    background-color: gray;
+    color: black;
+    text-align: center;
+    margin: 50px;
+    padding: 25px;
+}
